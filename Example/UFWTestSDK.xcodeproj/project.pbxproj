@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007CB6E51299D6CA1A0EEB4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		007CB6E51299D6CA1A0EEB4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		116DFE5ED608333A9E67FD9C /* Pods-UFWTestSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UFWTestSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UFWTestSDK_Tests/Pods-UFWTestSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		154A681CCF19166022A4F4C3 /* UFWTestSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UFWTestSDK.podspec; path = ../UFWTestSDK.podspec; sourceTree = "<group>"; };
+		154A681CCF19166022A4F4C3 /* UFWTestSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UFWTestSDK.podspec; path = ../UFWTestSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		382CDA1DA330A71609A35857 /* Pods_UFWTestSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UFWTestSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51AF3AE3665553FB9E326549 /* Pods_UFWTestSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UFWTestSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* UFWTestSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFWTestSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		751DED89BC32F6933F4218A2 /* Pods-UFWTestSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UFWTestSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-UFWTestSDK_Example/Pods-UFWTestSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D533A1D85F4414CA5E50FAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9D533A1D85F4414CA5E50FAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AFE919E6CFD166D08BDC8780 /* Pods-UFWTestSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UFWTestSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-UFWTestSDK_Tests/Pods-UFWTestSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				116DFE5ED608333A9E67FD9C /* Pods-UFWTestSDK_Tests.debug.xcconfig */,
 				AFE919E6CFD166D08BDC8780 /* Pods-UFWTestSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,11 +302,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-UFWTestSDK_Example/Pods-UFWTestSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/UFWTestSDK/UFWTestSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UFWTestSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

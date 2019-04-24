@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UFWTestSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UFWTestSDK.'
+  s.summary          = 'A UFWTestSDK is my test project.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A UFWTestSDK is my test project.
                        DESC
 
   s.homepage         = 'https://github.com/liuqiaochi/UFWTestSDK'
@@ -28,10 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/liuqiaochi/UFWTestSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'UFWTestSDK/Classes/**/*'
-  
+  s.source_files = 'UFWTestSDK/Classes/**/*.{h,m}'
+  #依赖自己的或别人的Framework文件
+  s.vendored_frameworks = 'UFWTestSDK/Classes/*.framework'
+  #系统依赖库
+  s.frameworks = 'UIKit', 'CoreLocation','Foundation'
+  #依赖第三方框架
+  s.dependency 'AFNetworking'
   # s.resource_bundles = {
   #   'UFWTestSDK' => ['UFWTestSDK/Assets/*.png']
   # }

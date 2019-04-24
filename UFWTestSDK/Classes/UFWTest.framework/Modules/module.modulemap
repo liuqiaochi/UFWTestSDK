@@ -1,0 +1,6 @@
+framework module UFWTest {
+  umbrella header "UFWTest.h"
+
+  export *
+  module * { export * }
+}
