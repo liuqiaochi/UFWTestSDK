@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,6 +22,13 @@ NS_ASSUME_NONNULL_BEGIN
  显示网络状态
  */
 + (void)showNetworkStatus;
+
+/**
+ 获得测试图片
+
+ @return 返回图片对象
+ */
++ (UIImage *)getBundleImg;
 
 @end
 

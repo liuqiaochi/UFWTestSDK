@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UFWTestSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A UFWTestSDK is my test project.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/liuqiaochi/UFWTestSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liuqiaochi' => 'liuqiaochi@wherecom.com' }
+  s.author           = { 'liuqiaochi' => 'liuqiaochi@gmail.com' }
   s.source           = { :git => 'https://github.com/liuqiaochi/UFWTestSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
