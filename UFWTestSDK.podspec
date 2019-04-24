@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UFWTestSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A UFWTestSDK is my test project.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  A UFWTestSDK is my test project.
+  A UFWTestSDK is my test project！！！.
                        DESC
 
   s.homepage         = 'https://github.com/liuqiaochi/UFWTestSDK'
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.resource  = 'UFWTestSDK/UFWTestSDK/Classes/UDWResource.bundle'
   s.source_files = 'UFWTestSDK/Classes/**/*.{h,m}'
   #依赖自己的或别人的Framework文件
   s.vendored_frameworks = 'UFWTestSDK/Classes/*.framework'
